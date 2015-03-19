@@ -1,0 +1,29 @@
+package numerospares;
+
+public class Numerospares {
+
+    public static void main(String[] args) {
+        int contador = 1;
+        while(contador < 10){
+            System.out.println(contador);
+            contador = contador + 1;//contador ++;
+        }
+        do{
+            System.out.println(" Imprime " + contador);
+        }while(contador < 10);
+        //aqui es para que el contador solo imprima los numeros pares
+        System.out.println("numeros pares");
+        for(int i = 2; i < 10;i+=2){
+        System.out.println(i);
+        }
+        
+         System.out.println("==*======*====");
+    //scoping
+    System.out.println (contador);
+    
+        
+    }
+    }
+    
+   
+}
